@@ -6,6 +6,7 @@ import swaggerFile from './swagger.json';
 
 import './database';
 import './shared/container';
+import 'reflect-metadata';
 
 const app = express();
 
