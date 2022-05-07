@@ -11,7 +11,7 @@ export class AlterUserDeleteUserName1651776303405
         await queryRunner.addColumn(
             'users',
             new TableColumn({
-                name: 'usernname',
+                name: 'username',
                 type: 'varchar',
             }),
         );
