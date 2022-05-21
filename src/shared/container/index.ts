@@ -9,16 +9,16 @@ import { ISpecificationsRepository } from '../../modules/cars/repositories/ISpec
 
 // IcategoriesRepository
 container.registerSingleton<ICategoriesRepository>(
-        'CategoriesRepository',
-        CategoriesRepository,
+    'CategoriesRepository',
+    CategoriesRepository,
 );
 
 container.registerSingleton<ISpecificationsRepository>(
-        'SpecificationsRepository',
-        SpecificationsRepository,
+    'SpecificationsRepository',
+    SpecificationsRepository,
 );
 
 container.registerSingleton<IUsersRepository>(
-        'UsersRepository',
-        UsersRepository,
+    'UsersRepository',
+    UsersRepository,
 );
